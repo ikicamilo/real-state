@@ -29,8 +29,6 @@ export default function Profile() {
   const [formData, setFormData] = useState({});
   const dispatch = useDispatch();
 
-  console.log(formData);
-
   // firebase storage
   // allow read;
   // allow write: if
