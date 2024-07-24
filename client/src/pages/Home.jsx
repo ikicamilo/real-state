@@ -13,9 +13,9 @@ export default function Home() {
 
   SwiperCore.use([Navigation]);
 
-  console.log("Offer", offerListings);
-  console.log("Sale", saleListings);
-  console.log("Rent", rentListings);
+  // console.log("Offer", offerListings);
+  // console.log("Sale", saleListings);
+  // console.log("Rent", rentListings);
 
   useEffect(() => {
     const fetchOfferListings = async () => {
